@@ -1,6 +1,8 @@
 Php artisan make:controller
 Php artisan make:model
 Php artisan make:migration
-Php artisan migrat
+Php artisan migrate
+--Create Table--
+Php artisan make:migration Create_student
 
 

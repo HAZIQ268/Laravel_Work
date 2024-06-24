@@ -7,8 +7,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('mypage', function(){
-//     return view('form');
-// });
+Route::get('xyz', function(){
+    return view('form');
+});
 
-Route::get('user', [user_controller::class,'myfunction']);
+// Route::get('user', [user_controller::class,'myfunction']);
