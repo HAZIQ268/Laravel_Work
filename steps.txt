@@ -1,0 +1,6 @@
+Php artisan make:controller
+Php artisan make:model
+Php artisan make:migration
+Php artisan migrat
+
+
