@@ -7,6 +7,10 @@
   <title>Document</title>
 </head>
 <body>
+  @if (session('success'))
+  <div class="alert alert-success">
+    {{ session('success')}}
+  </div>
 <form method="post" action="submission">
   @csrf
   <h1>Register Form</h1>

@@ -17,6 +17,6 @@ class form_controller extends Controller
 
         $model->save();
 
-        return redirect()->back()-with('success','data has been saved');
+        return redirect()->back()->with('success','data has been saved');
     }
 }
