@@ -22,7 +22,7 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-header">
-                                <h4 class="card-title">Laravel Fetch Method</h4>
+                                <h4 class="card-title text-center fw-bold mt-3">Laravel Fetch Method</h4>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
@@ -32,7 +32,7 @@
                                                 <th>Id</th>
                                                 <th>Name</th>
                                                 <th>Email</th>
-                                                <th>Paaword</th>
+                                                <th>Password</th>
                                             </tr>
                                             @foreach ($userdata as $item)
                                         
