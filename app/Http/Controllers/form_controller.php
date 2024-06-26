@@ -19,4 +19,9 @@ class form_controller extends Controller
 
         return redirect()->back()->with('success','data has been saved');
     }
+
+    function view(){
+        $userdata = mymodel::all();
+        return view('data', compact('userdata'));
+    }
 }

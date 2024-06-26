@@ -16,3 +16,5 @@ Route::get('user', [user_controller::class,'myfunction']);
 
 Route::post('submission', [form_controller::class,'register']);
 
+Route::get('viewdata',[form_controller::class,'view']);
+

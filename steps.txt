@@ -4,5 +4,7 @@ Php artisan make:migration
 Php artisan migrate
 --Create Table--
 Php artisan make:migration Create_student
+--View Page--
+Php artisan serve
 
 
